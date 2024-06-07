@@ -1,0 +1,4366 @@
+repo_name: minhnguyen311/mattermost
+report_id: 7395adcea8be034f68d890048c941fc4
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-07T13:38:04+00:00'
+requested_by: hmhealey
+provider: github
+branch: master
+detected_tools_count: 315
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/minhnguyen311/mattermost
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/channels/db/migrations/mysql/000001_create_teams.down.sql
+  detection_source: server/channels/db/migrations/mysql/000001_create_teams.down.sql
+  last_updated_by: John Tzikas
+  last_updated_on: 2021-02-23 14:22:31.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/minhnguyen311/mattermost
+  detection_source: Repo Metadata
+- name: YAML
+  description: A straightforward machine parsable data serialization format designed
+    for human readability and interaction
+  website_url: http://www.yaml.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1744/yaml.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package.json
+  detection_source: api/package.json
+  last_updated_by: Jesse Hallam
+  last_updated_on: 2023-06-27 14:10:13.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/channels/package.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Daniel Espino García
+  last_updated_on: 2023-12-04 14:29:42.000000000 Z
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 3.8.2
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: '20.11'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/.nvmrc
+  detection_source: Repo Metadata
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-03-18 11:22:46.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.mod
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: React Hot Loader
+  description: Tweak React components in real time
+  website_url: http://gaearon.github.io/react-hot-loader/
+  version: 4.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Daniel Espino García
+  last_updated_on: 2023-12-04 14:29:42.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package.json
+  detection_source: webapp/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package.json
+  detection_source: webapp/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.mod
+  detection_source: server/go.mod
+  last_updated_by: Christopher Speller
+  last_updated_on: 2019-04-10 14:56:17.000000000 Z
+- name: react-beautiful-dnd
+  description: Beautiful and accessible drag and drop for lists with React (by Atlassian)
+  website_url: https://github.com/atlassian/react-beautiful-dnd
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9878/react-beautiful-dnd-logo.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/channels/package.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/channels/package.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Daniel Espino García
+  last_updated_on: 2023-12-04 14:29:42.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: Compose
+  description: 'We host databases for busy devs: production-ready, cloud-hosted, open
+    source.'
+  website_url: https://www.compose.io/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: MongoDB Hosting
+  image_url: https://img.stackshare.io/service/201/reB72Lh4.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/docker-compose.yaml
+  detection_source: server/docker-compose.yaml
+  last_updated_by: Doug Lauder
+  last_updated_on: 2021-04-01 17:44:56.000000000 Z
+- name: Minio
+  description: AWS S3 open source alternative written in Go
+  website_url: https://minio.io/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/4485/gTawkyAA.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/build/docker-compose.yml
+  detection_source: server/build/docker-compose.yml
+  last_updated_by: Jesse Hallam
+  last_updated_on: 2023-06-19 17:01:47.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  version: 2.18.1
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.mod
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: Redux Persist
+  description: A library to persist and rehydrate a redux store
+  website_url: https://github.com/rt2zz/redux-persist
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6740/no-img-open-source.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Daniel Espino García
+  last_updated_on: 2023-12-04 14:29:42.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.21.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: webapp/channels/babel.config.js
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/.codecov.yml
+  detection_source: server/.codecov.yml
+  last_updated_by: Ben Schumacher
+  last_updated_on: 2020-03-13 17:35:31.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 13.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/build/docker-compose.yml
+  detection_source: server/build/docker-compose.yml
+  last_updated_by: Jesse Hallam
+  last_updated_on: 2021-01-20 02:28:22.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: Enzyme
+  description: JavaScript Testing utilities for React, by Airbnb
+  website_url: https://enzymejs.github.io/enzyme/
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/.github/workflows/api.yml
+  detection_source: ".github/workflows/api.yml"
+  last_updated_by: Antonis Stamatiou
+  last_updated_on: 2024-02-28 08:55:04.000000000 Z
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/build/docker-compose.yml
+  detection_source: server/build/docker-compose.yml
+  last_updated_by: Jesse Hallam
+  last_updated_on: 2021-01-20 02:28:22.000000000 Z
+- name: HAProxy
+  description: The Reliable, High Performance TCP/HTTP Load Balancer
+  website_url: http://www.haproxy.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Load Balancer / Reverse Proxy
+  image_url: https://img.stackshare.io/service/1179/preview.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/docker-compose.yaml
+  detection_source: server/docker-compose.yaml
+  last_updated_by: John Tzikas
+  last_updated_on: 2021-01-18 17:38:44.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 10.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/docker-compose.yaml
+  detection_source: server/docker-compose.yaml
+  last_updated_by: Carlos Tadeu Panato Junior
+  last_updated_on: 2019-08-06 06:46:53.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/channels/package.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 3.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/playwright/package-lock.json
+  detection_source: e2e-tests/playwright/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-03-19 00:09:25.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/build/docker-compose.yml
+  detection_source: server/build/docker-compose.yml
+  last_updated_by: Jesse Hallam
+  last_updated_on: 2021-01-20 02:28:22.000000000 Z
+- name: Rollbar
+  description: Proactively discover, predict, and remediate errors.
+  website_url: https://rollbar.com/
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/328/default_3147629185038a15dd41907749544023633da1ea.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/channels/package.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 16.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.mod
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.67.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-01-19 04:15:27.000000000 Z
+- name: highlight.js
+  description: Syntax highlighter in JavaScript
+  website_url: https://highlightjs.org/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/6888/c17e7d9688d86bd9f9506ec1fbd6d200_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/channels/package.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/platform/eslint-plugin/package.json
+  detection_source: webapp/platform/eslint-plugin/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2023-10-05 18:47:51.000000000 Z
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/platform/components/package.json
+  detection_source: webapp/platform/components/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: Buffer
+  description: The easiest way to schedule tweets, Facebook posts and more
+  website_url: https://bufferapp.com/
+  open_source: false
+  hosted_saas: true
+  category: Support, Sales, and Marketing
+  sub_category: Social Media Tools
+  image_url: https://img.stackshare.io/service/825/hnc3q-7x.jpg
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/channels/package.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: PDF.js
+  description: A general-purpose, web standards-based platform for parsing and rendering
+    PDFs
+  website_url: https://mozilla.github.io/pdf.js/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/8249/60c1d8501e4deb4a0f77f7f2fe145633_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/channels/package.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/channels/package.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: cURL
+  description: Command Line Tool and Library for Transferring Data With URLs
+  website_url: http://curl.haxx.se/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/6552/curl-logo.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/docker-compose.yaml
+  detection_source: server/docker-compose.yaml
+  last_updated_by: Carlos Tadeu Panato Junior
+  last_updated_on: 2019-08-06 06:46:53.000000000 Z
+- name: Alt
+  description: A library for managing data within JavaScript applications
+  website_url: https://alt.js.org/
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3649/default_01276c9c0c79674b16f9b29216bd8cc7ce9b894d.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/docker-compose.yaml
+  detection_source: server/docker-compose.yaml
+  last_updated_by: Carlos Tadeu Panato Junior
+  last_updated_on: 2019-08-06 06:46:53.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/build/docker-compose.yml
+  detection_source: server/build/docker-compose.yml
+  last_updated_by: Jesse Hallam
+  last_updated_on: 2023-06-19 17:01:47.000000000 Z
+- name: Keycloak
+  description: An open source identity and access management solution
+  website_url: https://www.keycloak.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/5439/oAC05cEB_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/docker-compose.yaml
+  detection_source: server/docker-compose.yaml
+  last_updated_by: Jesús Espino
+  last_updated_on: 2020-07-13 20:29:39.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Daniel Espino García
+  last_updated_on: 2023-12-04 14:29:42.000000000 Z
+- name: Luxon
+  description: Library for working with dates and times in Javascript
+  website_url: https://moment.github.io/luxon/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10330/no-img-open-source.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/channels/package.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Colton Shaw
+  last_updated_on: 2023-04-13 01:34:28.000000000 Z
+- name: OpenLDAP
+  description: An open source implementation of the Lightweight Directory Access Protocol
+  website_url: http://www.openldap.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/5225/zPH8xLZQ_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/docker-compose.yaml
+  detection_source: server/docker-compose.yaml
+  last_updated_by: Carlos Tadeu Panato Junior
+  last_updated_on: 2019-08-06 06:46:53.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/build/Dockerfile
+  detection_source: server/build/Dockerfile
+  last_updated_by: Daniel Schalla
+  last_updated_on: 2023-04-25 12:59:31.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.6.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/channels/package.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2023-04-14 19:12:00.000000000 Z
+- name: katex
+  website_url: https://github.com/Khan/KaTeX
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6858/15455.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/channels/package.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-04-04 20:57:35.000000000 Z
+- name: redux-batched-actions
+  website_url: https://github.com/tshelburne/redux-batched-actions
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/21680/default_3377fed68ddad63faee709037b1ca8fbecd1124d.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/channels/package.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Daniel Espino García
+  last_updated_on: 2023-12-04 14:29:42.000000000 Z
+- name: bluemonday
+  description: 'Bluemonday: a fast golang HTML sanitizer'
+  package_url: https://pkg.go.dev/github.com/microcosm-cc/bluemonday
+  version: 1.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+  vulnerabilities:
+  - name: Policies not properly enforced in bluemonday
+    cve_id: CVE-2021-42576
+    cve_url: https://github.com/advisories/GHSA-x95h-979x-cf3j
+    detected_date: Oct 20
+    severity: moderate
+    first_patched: 1.0.16
+  - name: Cross-site scripting in bluemonday
+    cve_id: CVE-2021-29272
+    cve_url: https://github.com/advisories/GHSA-3x58-xr87-2fcj
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.0.5
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  version: 2.2.1
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Julien Tant
+  last_updated_on: 2023-06-06 01:42:03.000000000 Z
+  vulnerabilities:
+  - name: Excessive Platform Resource Consumption within a Loop in Kubernetes
+    cve_id: CVE-2019-11254
+    cve_url: https://github.com/advisories/GHSA-wxc4-f4m6-wwqv
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.2.8
+- name: afero
+  description: A FileSystem Abstraction System for Go
+  package_url: https://pkg.go.dev/github.com/spf13/afero
+  version: 1.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: appengine
+  description: Go App Engine packages
+  package_url: https://pkg.go.dev/google.golang.org/appengine
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/public/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: armon/go-metrics
+  description: A Golang library for exporting performance and runtime metrics to external
+    metrics systems
+  package_url: https://pkg.go.dev/github.com/armon/go-metrics
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: assert
+  description: Asserts to Go testing
+  package_url: https://pkg.go.dev/github.com/bmizerany/assert
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/public/go.mod
+  last_updated_by: Ben Schumacher
+  last_updated_on: 2023-08-21 07:50:30.000000000 Z
+- name: atomic
+  description: Wrapper types for sync/atomic which enforce atomic access
+  package_url: https://pkg.go.dev/go.uber.org/atomic
+  version: 1.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-07-05 03:38:36.000000000 Z
+- name: aws-sdk-go
+  description: AWS SDK for the Go programming language
+  package_url: https://pkg.go.dev/github.com/aws/aws-sdk-go
+  version: 1.50.27
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: backo-go
+  description: Go port of segmentio/backo
+  package_url: https://pkg.go.dev/github.com/segmentio/backo-go
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: bitset
+  description: Go package implementing bitsets
+  package_url: https://pkg.go.dev/github.com/willf/bitset
+  version: 1.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.mod
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: btree
+  description: Package btree implements in-memory B-Trees of arbitrary degree
+  package_url: https://pkg.go.dev/github.com/google/btree
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: cascadia
+  description: CSS selector library in Go
+  package_url: https://pkg.go.dev/github.com/andybalholm/cascadia
+  version: 1.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-07-05 03:38:36.000000000 Z
+- name: cast
+  description: Safe and easy casting from one type to another in Go
+  package_url: https://pkg.go.dev/github.com/spf13/cast
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: check.v1
+  description: Package check is a rich testing extension for Go's testing package
+  package_url: https://pkg.go.dev/gopkg.in/check.v1
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/server/go.sum
+  detection_source: server/public/go.mod
+  last_updated_by: Jesse Hallam
+  last_updated_on: 2023-05-10 16:07:02.000000000 Z
+- name: client_model
+  description: Data model artifacts for Prometheus
+  package_url: https://pkg.go.dev/github.com/prometheus/client_model
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: clockwork
+  description: A fake clock for golang
+  package_url: https://pkg.go.dev/github.com/jonboulle/clockwork
+  version: 0.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Ben Schumacher
+  last_updated_on: 2023-10-24 08:51:38.000000000 Z
+- name: cobra
+  description: A Commander for modern Go CLI interactions
+  package_url: https://pkg.go.dev/github.com/spf13/cobra
+  version: 1.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: color
+  description: Color package for Go
+  package_url: https://pkg.go.dev/github.com/fatih/color
+  version: 1.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: common
+  description: Go libraries shared across Prometheus components and libraries
+  package_url: https://pkg.go.dev/github.com/prometheus/common
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: compress
+  description: Optimized compression packages
+  package_url: https://pkg.go.dev/github.com/klauspost/compress
+  version: 1.4.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: cors
+  description: Go net/http configurable handler to handle CORS requests
+  package_url: https://pkg.go.dev/github.com/rs/cors
+  version: 1.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: dateparse
+  description: GoLang Parse many date strings without knowing format in advance
+  package_url: https://pkg.go.dev/github.com/araddon/dateparse
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2022-04-27 08:21:49.000000000 Z
+- name: dgoogauth
+  description: Google Authenticator for Go
+  package_url: https://pkg.go.dev/github.com/dgryski/dgoogauth
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: dns
+  description: DNS library in Go
+  package_url: https://pkg.go.dev/github.com/miekg/dns
+  version: 1.1.26
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Christopher Speller
+  last_updated_on: 2019-04-10 14:56:17.000000000 Z
+- name: easyjson
+  description: Fast JSON serializer for golang
+  package_url: https://pkg.go.dev/github.com/mailru/easyjson
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: elastic
+  description: Elasticsearch client for Go
+  package_url: https://pkg.go.dev/github.com/olivere/elastic
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.mod
+  detection_source: server/go.mod
+  last_updated_by: Ben Schumacher
+  last_updated_on: 2023-10-24 08:51:38.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.8.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-07-05 03:38:36.000000000 Z
+- name: errwrap
+  description: Errwrap is a Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/errwrap
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Miguel de la Cruz
+  last_updated_on: 2023-06-05 10:42:55.000000000 Z
+- name: etree
+  description: Parse and generate XML easily in go
+  package_url: https://pkg.go.dev/github.com/beevik/etree
+  version: 1.1.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: exp
+  description: Experimental and deprecated packages
+  package_url: https://pkg.go.dev/golang.org/x/exp
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Christopher Speller
+  last_updated_on: 2019-04-10 14:56:17.000000000 Z
+- name: freetype
+  description: The Freetype font rasterizer in the Go programming language
+  package_url: https://pkg.go.dev/github.com/golang/freetype
+  version: 0.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Christopher Speller
+  last_updated_on: 2019-04-10 14:56:17.000000000 Z
+- name: fsnotify
+  description: Cross-platform file system notifications for Go
+  package_url: https://pkg.go.dev/github.com/fsnotify/fsnotify
+  version: 1.4.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: fwd
+  description: Buffered Reader/Writer
+  package_url: https://pkg.go.dev/github.com/philhofer/fwd
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Christopher Speller
+  last_updated_on: 2019-04-10 14:56:17.000000000 Z
+- name: gjson
+  description: Get JSON values quickly - JSON parser for Go
+  package_url: https://pkg.go.dev/github.com/tidwall/gjson
+  version: 1.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: go-difflib
+  description: Partial port of Python difflib package to Go
+  package_url: https://pkg.go.dev/github.com/pmezard/go-difflib
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: go-hclog
+  description: A common logging package for HashiCorp tools
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-hclog
+  version: 1.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: go-humanize
+  description: Go Humans!
+  package_url: https://pkg.go.dev/github.com/dustin/go-humanize
+  version: 1.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: go-immutable-radix
+  description: An immutable radix tree implementation in Golang
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-immutable-radix
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: go-jmespath
+  description: Golang implementation of JMESPath
+  package_url: https://pkg.go.dev/github.com/jmespath/go-jmespath
+  version: 0.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-01-12 14:00:04.000000000 Z
+- name: go-msgpack
+  description: Open-Source Go Code. msgpack.org[Go]
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-msgpack
+  version: 0.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: go-multierror
+  description: A Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-multierror
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: go-opengraph
+  description: Golang package for parsing OpenGraph data from HTML into regular structures
+  package_url: https://pkg.go.dev/github.com/dyatlov/go-opengraph
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.mod
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: go-plugin
+  description: Golang plugin system over RPC
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-plugin
+  version: 1.6.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: go-porterstemmer
+  description: A native Go clean room implementation of the Porter Stemming algorithm
+  package_url: https://pkg.go.dev/github.com/blevesearch/go-porterstemmer
+  version: 1.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: go-runewidth
+  description: Go-runewidth Provides functions to get fixed width of the character
+    or string
+  package_url: https://pkg.go.dev/github.com/mattn/go-runewidth
+  version: 0.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: go-sockaddr
+  description: IP Address/UNIX Socket convenience functions for Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-sockaddr
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  version: 1.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: go-sqlite3
+  description: Sqlite3 driver for go using database/sql
+  package_url: https://pkg.go.dev/github.com/mattn/go-sqlite3
+  version: 1.14.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: go-testing-interface
+  description: Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/go-testing-interface
+  version: 1.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: go-toml
+  description: Go library for the TOML language
+  package_url: https://pkg.go.dev/github.com/pelletier/go-toml
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: goexif
+  description: Decode embedded EXIF meta data from image files
+  package_url: https://pkg.go.dev/github.com/rwcarlsen/goexif
+  version: 0.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Jesús Espino
+  last_updated_on: 2019-06-13 21:08:19.000000000 Z
+- name: gojay
+  description: Fastest JSON encoder/decoder with powerful stream API for Golang
+  package_url: https://pkg.go.dev/github.com/francoispqt/gojay
+  version: 1.2.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Jesse Hallam
+  last_updated_on: 2023-05-10 16:07:02.000000000 Z
+- name: golang-lru
+  description: Golang LRU cache
+  package_url: https://pkg.go.dev/github.com/hashicorp/golang-lru
+  version: 0.5.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: gopherjs
+  description: A compiler from Go to JavaScript for running Go code in a browser
+  package_url: https://pkg.go.dev/github.com/gopherjs/gopherjs
+  version: 0.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Ibrahim Serdar Acikgoz
+  last_updated_on: 2022-05-10 07:58:09.000000000 Z
+- name: goquery
+  description: A little like that j-thing, only in Go
+  package_url: https://pkg.go.dev/github.com/PuerkitoBio/goquery
+  version: 1.4.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: gotenv
+  description: Load environment variables dynamically in Go
+  package_url: https://pkg.go.dev/github.com/subosito/gotenv
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: goxmldsig
+  description: Pure Go implementation of XML Digital Signatures
+  package_url: https://pkg.go.dev/github.com/russellhaering/goxmldsig
+  version: 1.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Ben Schumacher
+  last_updated_on: 2023-10-24 08:51:38.000000000 Z
+- name: graceful
+  description: Graceful is a Go package enabling graceful shutdown of an http.Handler
+    server
+  package_url: https://pkg.go.dev/github.com/tylerb/graceful
+  version: 1.2.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Ben Schumacher
+  last_updated_on: 2023-10-24 08:51:38.000000000 Z
+- name: handlers
+  description: "A collection of useful middleware for Go HTTP services &amp; web applications
+    \U0001F6C3"
+  package_url: https://pkg.go.dev/github.com/gorilla/handlers
+  version: 1.5.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: hcl
+  description: HCL is the HashiCorp configuration language
+  package_url: https://pkg.go.dev/github.com/hashicorp/hcl
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Christopher Speller
+  last_updated_on: 2019-04-10 14:56:17.000000000 Z
+- name: html2text
+  description: Golang HTML to plaintext conversion library
+  package_url: https://pkg.go.dev/github.com/jaytaylor/html2text
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: httpsnoop
+  description: Package httpsnoop provides an easy way to capture http related metrics
+  package_url: https://pkg.go.dev/github.com/felixge/httpsnoop
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: icrowley/fake
+  description: Fake data generator for Go
+  package_url: https://pkg.go.dev/github.com/icrowley/fake
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: image
+  description: Go supplementary image libraries
+  package_url: https://pkg.go.dev/golang.org/x/image
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Catena cyber
+  last_updated_on: 2024-01-30 02:41:35.000000000 Z
+- name: imaging
+  description: Imaging is a simple image processing package for Go
+  package_url: https://pkg.go.dev/github.com/disintegration/imaging
+  version: 1.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Catena cyber
+  last_updated_on: 2024-01-30 02:41:35.000000000 Z
+- name: ini.v1
+  description: Package ini provides INI file read and write functionality in Go
+  package_url: https://pkg.go.dev/gopkg.in/ini.v1
+  version: 1.67.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2022-08-19 04:10:21.000000000 Z
+- name: jaeger-client-go
+  description: Jaeger Bindings for Go OpenTracing API
+  package_url: https://pkg.go.dev/github.com/uber/jaeger-client-go
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.mod
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: json-iterator/go
+  description: A high-performance 100% compatible drop-in replacement of "encoding/json"
+  package_url: https://pkg.go.dev/github.com/json-iterator/go
+  version: 1.1.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: lann/builder
+  description: Fluent immutable builders for golang
+  package_url: https://pkg.go.dev/github.com/lann/builder
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2022-04-27 08:21:49.000000000 Z
+- name: leaktest
+  description: Goroutine Leak Detector
+  package_url: https://pkg.go.dev/github.com/fortytw2/leaktest
+  version: 1.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Ben Schumacher
+  last_updated_on: 2023-10-24 08:51:38.000000000 Z
+- name: logrus
+  description: Structured, pluggable logging for Go
+  package_url: https://pkg.go.dev/github.com/sirupsen/logrus
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Ben Schumacher
+  last_updated_on: 2023-11-23 09:30:08.000000000 Z
+- name: lumberjack.v2
+  description: Package lumberjack provides a rolling logger
+  package_url: https://pkg.go.dev/gopkg.in/natefinch/lumberjack.v2
+  version: 2.2.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Ben Schumacher
+  last_updated_on: 2023-10-24 08:51:38.000000000 Z
+- name: mapstructure
+  description: Go library for decoding generic map values into native Go structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/mapstructure
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: match
+  description: Simple string pattern matcher for Go
+  package_url: https://pkg.go.dev/github.com/tidwall/match
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2022-04-27 08:21:49.000000000 Z
+- name: memberlist
+  description: Golang package for gossip based membership and failure detection
+  package_url: https://pkg.go.dev/github.com/hashicorp/memberlist
+  version: 0.5.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Ben Schumacher
+  last_updated_on: 2023-10-24 08:51:38.000000000 Z
+- name: mock
+  description: GoMock is a mocking framework for the Go programming language
+  package_url: https://pkg.go.dev/github.com/golang/mock
+  version: 1.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: mousetrap
+  description: Detect starting from Windows explorer
+  package_url: https://pkg.go.dev/github.com/inconshreveable/mousetrap
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-01-12 14:00:04.000000000 Z
+- name: msgp
+  description: A Go code generator for MessagePack / msgpack.org[Go]
+  package_url: https://pkg.go.dev/github.com/tinylib/msgp
+  version: 1.1.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: mux
+  description: "A powerful HTTP router and URL matcher for building Go web servers
+    with \U0001F98D"
+  package_url: https://pkg.go.dev/github.com/gorilla/mux
+  version: 1.8.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Christopher Speller
+  last_updated_on: 2019-04-10 14:56:17.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/server/go.sum
+  detection_source: api/server/go.mod
+  last_updated_by: Jesse Hallam
+  last_updated_on: 2023-08-03 15:45:10.000000000 Z
+- name: oauth2
+  description: Go OAuth2
+  package_url: https://pkg.go.dev/golang.org/x/oauth2
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/public/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: objx
+  description: Go package for dealing with maps
+  package_url: https://pkg.go.dev/github.com/stretchr/objx
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: opentracing-go
+  description: OpenTracing API for Go
+  package_url: https://pkg.go.dev/github.com/opentracing/opentracing-go
+  version: 1.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: perks
+  description: Effective Computation of Things
+  package_url: https://pkg.go.dev/github.com/beorn7/perks
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Ben Schumacher
+  last_updated_on: 2023-10-24 08:51:38.000000000 Z
+- name: pflag
+  description: Drop-in replacement for Go's flag package
+  package_url: https://pkg.go.dev/github.com/spf13/pflag
+  version: 1.0.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2022-04-27 08:21:49.000000000 Z
+- name: pgzip
+  description: Go parallel gzip
+  package_url: https://pkg.go.dev/github.com/klauspost/pgzip
+  version: 1.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-07-05 03:38:36.000000000 Z
+- name: pq
+  description: Pure Go Postgres driver for database/sql
+  package_url: https://pkg.go.dev/github.com/lib/pq
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Christopher Speller
+  last_updated_on: 2019-04-10 14:56:17.000000000 Z
+- name: pretty
+  description: Pretty printing for Go values
+  package_url: https://pkg.go.dev/github.com/kr/pretty
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/server/go.sum
+  detection_source: server/public/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: procfs
+  description: Procfs provides functions to retrieve system
+  package_url: https://pkg.go.dev/github.com/prometheus/procfs
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: properties
+  description: Java properties scanner for Go
+  package_url: https://pkg.go.dev/github.com/magiconair/properties
+  version: 1.8.7
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-04-14 07:53:38.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.mod
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: ps
+  description: Persistent data structures for Go
+  package_url: https://pkg.go.dev/github.com/lann/ps
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Christopher Speller
+  last_updated_on: 2019-04-10 14:56:17.000000000 Z
+- name: quotedprintable.v3
+  description: Package quotedprintable implements quoted-printable encoding as specified
+    by RFC 2045
+  package_url: https://pkg.go.dev/gopkg.in/alexcesaro/quotedprintable.v3
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Ben Schumacher
+  last_updated_on: 2023-10-24 08:51:38.000000000 Z
+- name: rardecode
+  description: A go package for reading RAR archives
+  package_url: https://pkg.go.dev/github.com/nwaples/rardecode
+  version: 1.1.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: reflect2
+  description: Reflect api without runtime reflect.Value cost
+  package_url: https://pkg.go.dev/github.com/modern-go/reflect2
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2022-04-27 08:21:49.000000000 Z
+- name: roaring
+  description: Roaring bitmaps in Go
+  package_url: https://pkg.go.dev/github.com/RoaringBitmap/roaring
+  version: 1.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: run
+  description: A universal mechanism to manage goroutine lifecycles
+  package_url: https://pkg.go.dev/github.com/oklog/run
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Christopher Speller
+  last_updated_on: 2019-04-10 14:56:17.000000000 Z
+- name: schema
+  description: Package gorilla/schema fills a struct with form values
+  package_url: https://pkg.go.dev/github.com/gorilla/schema
+  version: 1.2.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: segment
+  description: 'A Go library for performing Unicode Text Segmentation as described
+    in Unicode Standard Annex #29'
+  package_url: https://pkg.go.dev/github.com/blevesearch/segment
+  version: 0.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: sentry-go
+  description: Official Sentry SDK for Go
+  package_url: https://pkg.go.dev/github.com/getsentry/sentry-go
+  version: 0.27.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: set
+  description: Set data structure for Go
+  package_url: https://pkg.go.dev/github.com/fatih/set
+  version: 0.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Christopher Speller
+  last_updated_on: 2019-04-10 14:56:17.000000000 Z
+- name: sha256-simd
+  description: Accelerate SHA256 computations in pure Go using AVX512 and AVX2 for
+    Intel and ARM64 for ARM
+  package_url: https://pkg.go.dev/github.com/minio/sha256-simd
+  version: 1.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-07-05 03:38:36.000000000 Z
+- name: smat
+  description: State Machine Assisted Testing
+  package_url: https://pkg.go.dev/github.com/mschoch/smat
+  version: 0.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2022-04-27 08:21:49.000000000 Z
+- name: snappy
+  description: The Snappy compression format in the Go programming language
+  package_url: https://pkg.go.dev/github.com/golang/snappy
+  version: 0.0.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2022-04-27 08:21:49.000000000 Z
+- name: sqlx
+  description: General purpose extensions to golang's database/sql
+  package_url: https://pkg.go.dev/github.com/jmoiron/sqlx
+  version: 1.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Ibrahim Serdar Acikgoz
+  last_updated_on: 2022-05-10 07:58:09.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/server/go.sum
+  detection_source: api/server/go.mod
+  last_updated_by: Jesse Hallam
+  last_updated_on: 2023-08-03 15:45:10.000000000 Z
+- name: tablewriter
+  description: ASCII table in golang
+  package_url: https://pkg.go.dev/github.com/olekukonko/tablewriter
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Ben Schumacher
+  last_updated_on: 2023-10-24 08:51:38.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: throttled
+  description: Package throttled implements rate limiting access to resources such
+    as HTTP endpoints
+  package_url: https://pkg.go.dev/github.com/throttled/throttled
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.mod
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2020-09-03 04:30:12.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/server/go.sum
+  detection_source: api/server/go.mod
+  last_updated_by: Jesse Hallam
+  last_updated_on: 2023-08-03 15:45:10.000000000 Z
+- name: uasurfer
+  description: Go package for fast and reliable abstraction of browser user agent
+    strings
+  package_url: https://pkg.go.dev/github.com/avct/uasurfer
+  version: 0.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: George Goldberg
+  last_updated_on: 2020-02-03 16:19:38.000000000 Z
+- name: uuid
+  description: Automatically exported from code.google.com/p/go-uuid
+  package_url: https://pkg.go.dev/github.com/pborman/uuid
+  version: 1.2.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: viper
+  description: Go configuration with fangs
+  package_url: https://pkg.go.dev/github.com/spf13/viper
+  version: 1.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: websocket
+  description: A fast
+  package_url: https://pkg.go.dev/github.com/gorilla/websocket
+  version: 1.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2023-12-20 14:14:50.000000000 Z
+- name: xid
+  description: Xid is a globally unique id generator thought for the web
+  package_url: https://pkg.go.dev/github.com/rs/xid
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Christopher Speller
+  last_updated_on: 2019-04-10 14:56:17.000000000 Z
+- name: xtgo/uuid
+  description: Go uuid parsing and generation
+  package_url: https://pkg.go.dev/github.com/xtgo/uuid
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Alejandro García Montoro
+  last_updated_on: 2024-02-29 12:19:43.000000000 Z
+- name: xz
+  description: Pure golang package for reading and writing xz-compressed files
+  package_url: https://pkg.go.dev/github.com/ulikunitz/xz
+  version: 0.5.8
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Christopher Speller
+  last_updated_on: 2019-04-10 14:56:17.000000000 Z
+- name: yamux
+  description: Golang connection multiplexing library
+  package_url: https://pkg.go.dev/github.com/hashicorp/yamux
+  version: 0.1.1
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/server/go.sum
+  detection_source: server/go.mod
+  last_updated_by: Agniva De Sarker
+  last_updated_on: 2022-08-19 04:10:21.000000000 Z
+- name: pdfjs-dist
+  description: Generic build of Mozilla's PDF.js library
+  package_url: https://www.npmjs.com/pdfjs-dist
+  version: 3.11.174
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18053/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Nicolas Le Cam
+  last_updated_on: 2023-10-26 10:06:10.000000000 Z
+  vulnerabilities:
+  - name: PDF.js vulnerable to arbitrary JavaScript execution upon opening a malicious
+      PDF
+    cve_id: CVE-2024-4367
+    cve_url: https://github.com/advisories/GHSA-wgrm-67xf-hhpq
+    detected_date: May 8
+    severity: high
+    first_patched: 4.2.67
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.21.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2023-06-08 21:05:21.000000000 Z
+- name: "@babel/plugin-transform-runtime"
+  description: Externalise references to helpers and builtins
+  package_url: https://www.npmjs.com/@babel/plugin-transform-runtime
+  version: 7.23.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15952/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/platform/components/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.21.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2023-11-13 20:13:58.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 22:07:28.000000000 Z
+- name: "@babel/preset-typescript"
+  description: Babel preset for TypeScript
+  package_url: https://www.npmjs.com/@babel/preset-typescript
+  version: 7.21.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-18 18:24:15.000000000 Z
+- name: "@hot-loader/react-dom"
+  description: The Hot version of React-DOM
+  package_url: https://www.npmjs.com/@hot-loader/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18594/default_ff37252c783e39778181a2b561afd470c5bdef8b.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: "@rollup/plugin-node-resolve"
+  description: Locate and bundle third-party dependencies in node_modules
+  package_url: https://www.npmjs.com/@rollup/plugin-node-resolve
+  version: 13.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17836/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/platform/components/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.16.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 12.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: "@types/async"
+  description: TypeScript definitions for Async
+  package_url: https://www.npmjs.com/@types/async
+  version: 3.2.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17144/default_9746cbb559e39df4afd8298f9a252dff8519e646.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: "@types/enzyme"
+  description: TypeScript definitions for Enzyme
+  package_url: https://www.npmjs.com/@types/enzyme
+  version: 3.10.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16307/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-04 21:07:39.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: "@types/fs-extra"
+  description: TypeScript definitions for fs-extra
+  package_url: https://www.npmjs.com/@types/fs-extra
+  version: 11.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 28.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-04 21:07:39.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: "@types/marked"
+  description: TypeScript definitions for Marked
+  package_url: https://www.npmjs.com/@types/marked
+  version: 0.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17650/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-04 21:07:39.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 14.18.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-04 21:07:39.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 17.0.71
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-04 21:07:39.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 17.0.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-04 21:07:39.000000000 Z
+- name: "@types/react-redux"
+  description: TypeScript definitions for react-redux
+  package_url: https://www.npmjs.com/@types/react-redux
+  version: 7.1.31
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16687/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-04 21:07:39.000000000 Z
+- name: "@types/react-router-dom"
+  description: TypeScript definitions for React Router
+  package_url: https://www.npmjs.com/@types/react-router-dom
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-04 21:07:39.000000000 Z
+- name: "@types/react-select"
+  description: TypeScript definitions for react-select
+  package_url: https://www.npmjs.com/@types/react-select
+  version: 3.0.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18777/default_6573a8e18b31ebd0ef37ee1be216ea3f0ff3b1b5.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-04 21:07:39.000000000 Z
+- name: "@types/react-transition-group"
+  description: TypeScript definitions for react-transition-group
+  package_url: https://www.npmjs.com/@types/react-transition-group
+  version: 4.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17976/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-04 21:07:39.000000000 Z
+- name: "@types/semver"
+  description: TypeScript definitions for semver
+  package_url: https://www.npmjs.com/@types/semver
+  version: 7.5.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-04 21:07:39.000000000 Z
+- name: "@types/shelljs"
+  description: TypeScript definitions for ShellJS
+  package_url: https://www.npmjs.com/@types/shelljs
+  version: 0.8.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16927/default_243de814aae175a383b2d9fba99487a89879acdb.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: "@types/styled-components"
+  description: TypeScript definitions for styled-components
+  package_url: https://www.npmjs.com/@types/styled-components
+  version: 5.1.32
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16494/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: "@types/webpack-env"
+  description: TypeScript definitions for webpack
+  package_url: https://www.npmjs.com/@types/webpack-env
+  version: 1.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16614/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-18 18:24:15.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 6.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 6.21.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: async
+  description: Higher-order functions and common patterns for asynchronous code
+  package_url: https://www.npmjs.com/async
+  version: 3.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-01-19 04:15:27.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 9.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: babel-plugin-styled-components
+  description: Improve the debugging experience and add server-side rendering support
+    to styled-components
+  package_url: https://www.npmjs.com/babel-plugin-styled-components
+  version: 1.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16651/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-18 18:24:15.000000000 Z
+- name: blessed
+  description: A high-level terminal interface library for node.js
+  package_url: https://www.npmjs.com/blessed
+  version: 0.1.81
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17050/default_824835a71140f223a333a5e10225c10368f12857.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 7.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.20.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: crypto-browserify
+  description: Implementation of crypto for the browser
+  package_url: https://www.npmjs.com/crypto-browserify
+  version: 3.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18055/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: dayjs
+  description: 2KB immutable date time library alternative to Moment.js with the same
+    modern API
+  package_url: https://www.npmjs.com/dayjs
+  version: 1.11.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2023-10-03 14:26:37.000000000 Z
+- name: deepmerge
+  description: A library for deep
+  package_url: https://www.npmjs.com/deepmerge
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16179/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2023-05-08 22:11:40.000000000 Z
+- name: enzyme-to-json
+  description: Convert enzyme wrapper to a format compatible with Jest snapshot
+  package_url: https://www.npmjs.com/enzyme-to-json
+  version: 3.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16252/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Jesús Espino
+  last_updated_on: 2023-10-10 14:22:11.000000000 Z
+- name: eslint-import-resolver-webpack
+  description: Resolve paths to dependencies, given a webpack.config.js
+  package_url: https://www.npmjs.com/eslint-import-resolver-webpack
+  version: 0.13.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16302/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: eslint-plugin-cypress
+  description: An ESLint plugin for projects using Cypress
+  package_url: https://www.npmjs.com/eslint-plugin-cypress
+  version: 2.15.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18548/default_0998c3a5bd64540d478b8f189bd9d22c3c17b6a0.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: webapp/platform/eslint-plugin/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 22:07:28.000000000 Z
+- name: eslint-plugin-no-only-tests
+  description: ESLint rule for .only blocks in mocha tests
+  package_url: https://www.npmjs.com/eslint-plugin-no-only-tests
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18756/default_18c539134b0dda955cff96464ccdbe4e0790a62a.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.34.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 22:07:28.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: extract-zip
+  description: Unzip a zip file into a directory using 100% javascript
+  package_url: https://www.npmjs.com/extract-zip
+  version: 2.0.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17488/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-01-19 04:15:27.000000000 Z
+- name: fast-deep-equal
+  description: Fast deep equal
+  package_url: https://www.npmjs.com/fast-deep-equal
+  version: 3.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17360/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Daniel Espino García
+  last_updated_on: 2023-12-04 14:29:42.000000000 Z
+- name: font-awesome
+  description: The iconic font and CSS framework
+  package_url: https://www.npmjs.com/font-awesome
+  version: 4.7.0
+  license: OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16160/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: form-data
+  description: A library to create readable "multipart/form-data" streams
+  package_url: https://www.npmjs.com/form-data
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16415/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/playwright/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: history
+  description: Manage session history with JavaScript
+  package_url: https://www.npmjs.com/history
+  version: 4.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16209/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: hoist-non-react-statics
+  description: Copies non-react specific statics from a child component to a parent
+    component
+  package_url: https://www.npmjs.com/hoist-non-react-statics
+  version: 3.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16478/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: html-webpack-plugin
+  description: Simplifies creation of HTML files to serve your webpack bundles
+  package_url: https://www.npmjs.com/html-webpack-plugin
+  version: 5.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: identity-obj-proxy
+  description: An identity object using ES6 proxies
+  package_url: https://www.npmjs.com/identity-obj-proxy
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16206/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: image-webpack-loader
+  description: Image loader module for webpack
+  package_url: https://www.npmjs.com/image-webpack-loader
+  version: 8.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16668/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-02-06 22:04:11.000000000 Z
+- name: imagemin-mozjpeg
+  description: Imagemin plugin for mozjpeg
+  package_url: https://www.npmjs.com/imagemin-mozjpeg
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18375/default_dfa436ad7e86b77a556a6a1efbcfc256ca9653ce.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-02-06 22:04:11.000000000 Z
+- name: ipaddr.js
+  description: A library for manipulating IPv4 and IPv6 addresses in JavaScript
+  package_url: https://www.npmjs.com/ipaddr.js
+  version: 1.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18686/default_aa04137358f471f73d601f7d8b94126c37bdd90c.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Nick Misasi
+  last_updated_on: 2023-11-14 14:12:04.000000000 Z
+- name: isomorphic-fetch
+  description: Isomorphic WHATWG Fetch API, for Node &amp; Browserify
+  package_url: https://www.npmjs.com/isomorphic-fetch
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16185/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2023-08-18 20:02:46.000000000 Z
+- name: jest-cli
+  description: Delightful JavaScript Testing
+  package_url: https://www.npmjs.com/jest-cli
+  version: 29.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16022/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2023-11-07 06:11:26.000000000 Z
+- name: jest-environment-jsdom
+  description: Delightful JavaScript Testing
+  package_url: https://www.npmjs.com/jest-environment-jsdom
+  version: 29.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18413/default_867ef7396016341fd213fa568d6de11cc98fefff.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2023-11-07 06:11:26.000000000 Z
+- name: jest-junit
+  description: A jest reporter that generates junit xml files
+  package_url: https://www.npmjs.com/jest-junit
+  version: 16.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16536/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2023-11-07 06:11:26.000000000 Z
+- name: jest-watch-typeahead
+  description: Jest plugin for filtering by filename or test name
+  package_url: https://www.npmjs.com/jest-watch-typeahead
+  version: 2.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16646/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-04 21:07:39.000000000 Z
+- name: katex
+  description: Fast math typesetting for the web
+  package_url: https://www.npmjs.com/katex
+  version: 0.16.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18250/default_c6b51515d4a1dde78342d80e969e295cabf381ac.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-04-04 20:57:35.000000000 Z
+- name: knex
+  description: A batteries-included SQL query &amp; schema builder for Postgres
+  package_url: https://www.npmjs.com/knex
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16491/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-01-19 04:15:27.000000000 Z
+- name: localforage
+  description: Offline storage, improved
+  package_url: https://www.npmjs.com/localforage
+  version: 1.10.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17229/default_48f040bdc5f6c639c70bf350f8b8158ede27286c.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 4.0.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: memoize-one
+  description: A memoization library which only remembers the latest invocation
+  package_url: https://www.npmjs.com/memoize-one
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17541/default_e665c133253b5cd434c1991167ebd25dc68f1c17.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: mime
+  description: A comprehensive library for mime-type mapping
+  package_url: https://www.npmjs.com/mime
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16182/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-01-19 04:15:27.000000000 Z
+- name: mime-types
+  description: The ultimate javascript content-type utility
+  package_url: https://www.npmjs.com/mime-types
+  version: 2.1.34
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16448/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: mini-css-extract-plugin
+  description: Extracts CSS into separate files
+  package_url: https://www.npmjs.com/mini-css-extract-plugin
+  version: 2.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 22:07:28.000000000 Z
+- name: mocha-junit-reporter
+  description: A JUnit reporter for mocha
+  package_url: https://www.npmjs.com/mocha-junit-reporter
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16739/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: mochawesome
+  description: A gorgeous reporter for Mocha.js
+  package_url: https://www.npmjs.com/mochawesome
+  version: 7.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17128/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: moment-timezone
+  description: Parse and display moments in any timezone
+  package_url: https://www.npmjs.com/moment-timezone
+  version: 0.5.45
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 13.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: p-queue
+  description: Promise queue with concurrency control
+  package_url: https://www.npmjs.com/p-queue
+  version: 7.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18257/default_315a767553036d5263c95420817fe68cd3885651.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: path
+  description: Node.JS path module
+  package_url: https://www.npmjs.com/path
+  version: 0.12.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16082/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: pg
+  description: PostgreSQL client - pure javascript &amp; libpq with the same API
+  package_url: https://www.npmjs.com/pg
+  version: 8.11.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Nick Misasi
+  last_updated_on: 2023-11-14 14:12:04.000000000 Z
+- name: process
+  description: Process information for node.js and browsers
+  package_url: https://www.npmjs.com/process
+  version: 0.11.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17866/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-04 21:07:39.000000000 Z
+- name: react-bootstrap
+  description: Bootstrap 3 components built with React
+  package_url: https://www.npmjs.com/react-bootstrap
+  version: 0.32.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16383/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: react-color
+  description: A Collection of Color Pickers from Sketch
+  package_url: https://www.npmjs.com/react-color
+  version: 2.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16955/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: react-custom-scrollbars
+  description: React scrollbars component
+  package_url: https://www.npmjs.com/react-custom-scrollbars
+  version: 4.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18040/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: react-day-picker
+  description: Flexible date picker component for React
+  package_url: https://www.npmjs.com/react-day-picker
+  version: 8.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18299/default_678ce8b19e8cee1dde03f165f62525a2c9d0c034.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: react-intl
+  description: Internationalize React apps
+  package_url: https://www.npmjs.com/react-intl
+  version: 6.6.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16566/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: react-is
+  description: Brand checking of React Elements
+  package_url: https://www.npmjs.com/react-is
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17829/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: react-overlays
+  description: Utilities for creating robust overlay components
+  package_url: https://www.npmjs.com/react-overlays
+  version: 0.9.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18131/default_3e053d4b47b1198323e0d3094fad02237b4d3c17.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-04 21:07:39.000000000 Z
+- name: react-popper
+  description: React wrapper around Popper.js
+  package_url: https://www.npmjs.com/react-popper
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17809/default_dc034f75f103514d23b4d1a7fe578415d63216ee.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: react-select
+  description: A Select control built with and for ReactJS
+  package_url: https://www.npmjs.com/react-select
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16452/default_d634bba6819a28b85a138b7ded782cadbfa6a482.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: react-transition-group
+  description: A react component toolset for managing animations
+  package_url: https://www.npmjs.com/react-transition-group
+  version: 2.9.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2024-01-23 12:18:22.000000000 Z
+- name: recursive-readdir
+  description: Get an array of all files in a directory and subdirectories
+  package_url: https://www.npmjs.com/recursive-readdir
+  version: 2.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16636/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: redux-mock-store
+  description: A mock store for testing your redux async action creators and middleware
+  package_url: https://www.npmjs.com/redux-mock-store
+  version: 1.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16721/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Daniel Espino García
+  last_updated_on: 2023-12-04 14:29:42.000000000 Z
+- name: regenerator-runtime
+  description: Runtime for Regenerator-compiled generator and async functions
+  package_url: https://www.npmjs.com/regenerator-runtime
+  version: 0.13.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16148/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: rollup-plugin-scss
+  description: Rollup multiple .scss, .sass and .css imports
+  package_url: https://www.npmjs.com/rollup-plugin-scss
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17788/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/platform/components/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 14.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 6.3.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: serialize-error
+  description: Serialize/deserialize an error into a plain object
+  package_url: https://www.npmjs.com/serialize-error
+  version: 8.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18633/default_9435962787d899b43c107b26a450d4a5a0784dc8.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2023-07-28 15:17:11.000000000 Z
+- name: shelljs
+  description: Portable Unix shell commands for Node.js
+  package_url: https://www.npmjs.com/shelljs
+  version: 0.8.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-01-19 04:15:27.000000000 Z
+- name: strip-ansi
+  description: Strip ANSI escape codes from a string
+  package_url: https://www.npmjs.com/strip-ansi
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16331/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2023-05-10 19:20:16.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 3.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: stylelint-config-recommended-scss
+  description: Recommended shareable SCSS config for stylelint
+  package_url: https://www.npmjs.com/stylelint-config-recommended-scss
+  version: 14.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18141/default_3e053d4b47b1198323e0d3094fad02237b4d3c17.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: stylelint-order
+  description: A collection of order related linting rules for stylelint
+  package_url: https://www.npmjs.com/stylelint-order
+  version: 6.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16709/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: stylelint-scss
+  description: A collection of SCSS specific rules for stylelint
+  package_url: https://www.npmjs.com/stylelint-scss
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16626/default_9012166d3e51cea5db6b4e69c80ace1c50b7509d.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-13 21:00:57.000000000 Z
+- name: tinycolor2
+  description: Fast Color Parsing and Manipulation
+  package_url: https://www.npmjs.com/tinycolor2
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16845/default_768abdabb94806c932ace6262b6bbc8241907245.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: turndown
+  description: A library that converts HTML to Markdown
+  package_url: https://www.npmjs.com/turndown
+  version: 7.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: Doug Lauder
+  last_updated_on: 2023-03-22 21:22:27.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/e2e-tests/cypress/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2024-04-22 01:28:45.000000000 Z
+- name: webpack-bundle-analyzer
+  description: Webpack plugin and CLI utility that represents bundle content as convenient
+    interactive zoomable treemap
+  package_url: https://www.npmjs.com/webpack-bundle-analyzer
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15991/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2023-04-14 19:12:00.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 4.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-18 18:24:15.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 4.13.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/package.json
+  last_updated_by: Harrison Healey
+  last_updated_on: 2024-03-18 18:24:15.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 15.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/api/package-lock.json
+  detection_source: e2e-tests/cypress/package.json
+  last_updated_by: Saturnino Abril
+  last_updated_on: 2023-05-08 22:11:40.000000000 Z
+- name: zen-observable
+  description: An Implementation of ES Observables
+  package_url: https://www.npmjs.com/zen-observable
+  version: 0.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18611/default_1f32939697c9f15330e44e8bcc5c2e71552d2a33.png
+  detection_source_url: https://github.com/minhnguyen311/mattermost/blob/master/webapp/package-lock.json
+  detection_source: webapp/channels/package.json
+  last_updated_by: M-ZubairAhmed
+  last_updated_on: 2023-12-18 18:52:58.000000000 Z
